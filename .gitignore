@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Dataset files should not be committed
+data/
+datasets/
+figures/
+masks/
+*.tif
+*.tiff
+*.nii
+*.nii.gz
+
+# Model weights can be large
+*.pth
+*.pt
+*.ckpt
+
+# Generated experiment outputs
+results/
+results/*.csv
+results/*.json
+results/figures/*
+!results/figures/README.md

@@ -1,0 +1,17 @@
+# Core scientific stack
+numpy
+pandas
+matplotlib
+opencv-python
+Pillow
+scikit-learn
+tqdm
+jupyter
+
+# Deep learning
+torch
+torchvision
+segmentation-models-pytorch
+
+# Explainability
+grad-cam
